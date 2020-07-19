@@ -1,0 +1,156 @@
+body {
+	margin: 0;
+	padding: 0;
+    background-color: #d4d4d4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+div#container {
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+}
+
+nav {
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 49.219px;
+	background-color: #f8f9fa;
+    overflow: hidden;
+    
+}
+
+.topNav a {
+    float: right;
+    color: #1a488c;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 15px 26px;
+    text-decoration: none;
+  }
+
+.topNav a:hover{
+	color: #de0031;
+}
+
+  nav li {
+	list-style: none;
+}
+
+.logo {
+    float: left;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 41px;
+}
+
+img {
+	max-width: 100%;
+    height: auto;
+}
+
+h2 {
+   color: #333333; 
+   font-size: 32px;
+   font-style: italic;
+   padding-left: 60px;
+   text-align: left;
+}
+
+p {
+    color: #1a488c;
+    font-size: 30px;
+    font-style: italic;
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 40px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.column {
+    float: left;
+    width: 33.33%;
+    max-width: 280px;
+    /* padding-left: 230px; */
+    padding: 20px;
+    padding-bottom: 30px;
+    display: block;
+    margin-left: 100px;
+    margin-right: auto;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  small {
+      color: #1a488c;
+      font-size: 87%;
+      font-style: normal;
+  }
+
+  header {
+      background-color: #1a488c;
+      padding-left: 80px;
+      padding-top: 60px;
+      padding-right: 80px;
+      padding-bottom: 30px;
+  }
+
+  .blockTitle {
+      text-align: center;
+      color: white;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: bold;
+  }
+
+  .column2 {
+    float: left;
+    width: 25%;
+    max-width: 280px;
+    /* padding-left: 230px; */
+    padding: 20px;
+    padding-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Clear floats after image containers */
+  .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+h1 {
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+}
+
+footer {
+    background-color: #58595b;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+}
+
+.copyright {
+    text-align: left;
+    color: #ccc;
+    font-style: normal;
+    font-size: 16px;
+}
